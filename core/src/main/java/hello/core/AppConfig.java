@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 //생성자 주입
 @Configuration
 public class AppConfig {
-
+    //팩토리 메소드를 통해서 제공해주는 방식
     @Bean
     public MemberService memberService(){
         return new MemberServiceImpl(memberRepository());
