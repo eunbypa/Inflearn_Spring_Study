@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-@RequiredArgsConstructor // final을 모아서 알아서 생성자 생성해줌
+//@RequiredArgsConstructor // final을 모아서 알아서 생성자 생성해줌
 public class OrderServiceImpl implements OrderService{
 
     // DIP 원칙 지키고 있음 (인터페이스에만 의존)

@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class OrderServiceImplTest {
     @Test
-    voic createOrder(){
+    void createOrder(){
         MemoryMemberRepository memberRepository = new MemoryMemberRepository();
         memberRepository.save(new Member(1L, "name", Grade.VIP));
 
